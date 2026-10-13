@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img" aria-labelledby="title desc">
+<title id="title">ACEZEEY — Pixel Developer Banner</title>
+<desc id="desc">An animated retro pixel-art developer banner with a glowing ACEZEEY title and five hopping bunnies.</desc>
+
+<defs>
+<linearGradient id="bg" x2="1" y2="1">
+<stop stop-color="#080F1C"/>
+<stop offset="1" stop-color="#101B2B"/>
+</linearGradient>
+<linearGradient id="neon" x2="0" y2="1">
+<stop stop-color="#FFFFFF"/>
+<stop offset=".45" stop-color="#DCC6FF"/>
+<stop offset="1" stop-color="#8C55FF"/>
+</linearGradient>
+<pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+<path d="M20 0H0V20" fill="none" stroke="#56BBD1" stroke-opacity=".1"/>
+</pattern>
+
+<g id="bunny" shape-rendering="crispEdges">
+<rect x="12" y="0" width="7" height="21" fill="#F9F4FF"/>
+<rect x="24" y="3" width="7" height="18" fill="#F9F4FF"/>
+<rect x="14" y="5" width="3" height="11" fill="#FF9BCB"/>
+<rect x="26" y="7" width="3" height="9" fill="#FF9BCB"/>
+<rect x="7" y="24" width="29" height="17" fill="#F9F4FF"/>
+<rect x="13" y="19" width="20" height="9" fill="#F9F4FF"/>
+<rect x="2" y="28" width="9" height="10" fill="#F9F4FF"/>
+<rect x="7" y="39" width="12" height="5" fill="#D9CBFF"/>
+<rect x="25" y="39" width="12" height="5" fill="#D9CBFF"/>
+<rect x="32" y="25" width="3" height="3" fill="#30215C"/>
+<rect x="35" y="31" width="3" height="3" fill="#FF8EBE"/>
+<rect x="0" y="29" width="7" height="7" fill="#FFFFFF"/>
+<rect x="2" y="27" width="5" height="3" fill="#FFFFFF"/>
+</g>
+
+<style>
+@keyframes glow {
+0%,100% { opacity:.8; }
+50% { opacity:1; }
+}
+@keyframes hop {
+0%,100% { transform:translateY(0); }
+45%,55% { transform:translateY(-25px); }
+}
+@keyframes run {
+from { transform:translateX(-90px); }
+to { transform:translateX(1290px); }
+}
+@keyframes twinkle {
+0%,100% { opacity:.3; }
+50% { opacity:1; }
+}
+.logo { animation:glow 2.5s ease-in-out infinite; }
+.runner { animation:run 12s linear infinite; }
+.hop { animation:hop .62s ease-in-out infinite; }
+.b2 { animation-delay:-2.4s; }
+.b3 { animation-delay:-4.8s; }
+.b4 { animation-delay:-7.2s; }
+.b5 { animation-delay:-9.6s; }
+.spark { animation:twinkle 1.5s steps(2,end) infinite; }
+@media (prefers-reduced-motion:reduce) {
+.logo,.runner,.hop,.spark { animation:none; }
+}
+</style>
+</defs>
+
+<!-- Background -->
+<rect width="1200" height="350" rx="12" fill="url(#bg)"/>
+<rect width="1200" height="350" rx="12" fill="url(#grid)"/>
+<path d="M20 20H75M20 20V60M1180 20H1125M1180 20V60"
+fill="none" stroke="#49C7DC" stroke-width="2" opacity=".65"/>
+
+<!-- Pixel stars -->
+<g class="spark" fill="#BFA1FF" shape-rendering="crispEdges">
+<path d="M90 73h8v8h-8zM86 77h16v3H86z"/>
+<path d="M630 40h6v18h-6zM624 46h18v6h-18z"/>
+<path d="M677 103h8v8h-8zM673 107h16v3h-16z"/>
+<path d="M557 53h6v14h-6zM553 57h14v6h-14z"/>
+</g>
+
+<!-- Animated ACEZEEY logo -->
+<g class="logo" shape-rendering="crispEdges">
+<path d="M277 52h9v-12h8v12h9v-8h8v16h-42V44h8z"
+fill="#A56CFF" stroke="#E6D5FF" stroke-width="2"/>
+<rect x="273" y="60" width="43" height="6" fill="#7C49DC"/>
+
+<text x="70" y="122"
+font-family="monospace" font-size="66" font-weight="900"
+letter-spacing="1" fill="#6C43D5" stroke="#6C43D5"
+stroke-width="5" paint-order="stroke">ACEZEEY</text>
+<text x="70" y="117"
+font-family="monospace" font-size="66" font-weight="900"
+letter-spacing="1" fill="url(#neon)">ACEZEEY</text>
+
+<path d="M73 134H285M316 134H438" stroke="#9365FF" stroke-width="3"/>
+<path d="M295 132h8v-6h8v6h8v8h-8v7h-8v-7h-8z" fill="#FF9BCB"/>
+</g>
+
+<!-- Terminal panel -->
+<g>
+<rect x="680" y="34" width="466" height="175" rx="8"
+fill="#09121D" stroke="#315D72" stroke-width="2"/>
+<rect x="681" y="35" width="464" height="30" rx="7" fill="#182C3D"/>
+<circle cx="699" cy="50" r="4" fill="#FF8B9B"/>
+<circle cx="714" cy="50" r="4" fill="#FFC477"/>
+<circle cx="729" cy="50" r="4" fill="#69E5C5"/>
+
+<text x="913" y="54" font-family="monospace" font-size="11"
+fill="#A9C8D8" text-anchor="middle">acezeey / current-confusion.txt</text>
+
+<g font-family="monospace" font-size="14">
+<text x="704" y="91" fill="#648B9C">01</text>
+<text x="738" y="91" fill="#E2E9F5">computer engineering</text>
+
+<text x="704" y="122" fill="#648B9C">02</text>
+<text x="738" y="122" fill="#D5ADFF">software development</text>
+
+<text x="704" y="153" fill="#648B9C">03</text>
+<text x="738" y="153" fill="#66D9CF">learning / building</text>
+
+<text x="704" y="184" fill="#648B9C">04</text>
+<text x="738" y="184" fill="#E2E9F5">> copy & paste_</text>
+</g>
+</g>
+
+<!-- Bunny running track -->
+<path d="M20 285H1180" stroke="#483875" stroke-width="3"/>
+<path d="M20 285H1180" stroke="#6CDBE6" stroke-width="1"
+stroke-dasharray="9 12" opacity=".7"/>
+
+<!-- Five looping, hopping bunnies -->
+<g class="runner">
+<g class="hop"><use href="#bunny" x="0" y="238"/></g>
+</g>
+<g class="runner b2">
+<g class="hop"><use href="#bunny" x="0" y="238"/></g>
+</g>
+<g class="runner b3">
+<g class="hop"><use href="#bunny" x="0" y="238"/></g>
+</g>
+<g class="runner b4">
+<g class="hop"><use href="#bunny" x="0" y="238"/></g>
+</g>
+<g class="runner b5">
+<g class="hop"><use href="#bunny" x="0" y="238"/></g>
+</g>
+
+<text x="1060" y="325" text-anchor="end"
+font-family="monospace" font-size="10" fill="#718CBA">
+PIXEL MODE // ON
+</text>
+</svg>
