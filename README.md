@@ -1,6 +1,6 @@
 ## Hi there, I'm Shanti Quiban 👋
 
-**acezeey/acezeey** is a Project Nexus repository
+🔍 Overview
 
 - 💻 I'm DevOps & Deployment Specialist
 - 🌱 I’m currently learning to make a GitHub Portfolio 
