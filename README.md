@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="./acezeey-banner.svg" alt="ACEZEEY Pixel Animation" width="100%">
+</div>
+
 ## Hi there, I'm Shanti Quiban 👋
 
 🔍 Overview
