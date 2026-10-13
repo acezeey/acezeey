@@ -1,6 +1,8 @@
-<div align="center">
-  <img src="./acezeey-banner.svg" alt="ACEZEEY Pixel Animation" width="100%">
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/acezeey/acezeey/main/acezeey-banner.svg"
+       alt="ACEZEEY Pixel Bunny Banner"
+       width="100%">
+</p>
 
 ## Hi there, I'm Shanti Quiban 👋
 
