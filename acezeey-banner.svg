@@ -79,10 +79,6 @@ fill="none" stroke="#49C7DC" stroke-width="2" opacity=".65"/>
 
 <!-- Animated ACEZEEY logo -->
 <g class="logo" shape-rendering="crispEdges">
-<path d="M277 52h9v-12h8v12h9v-8h8v16h-42V44h8z"
-fill="#A56CFF" stroke="#E6D5FF" stroke-width="2"/>
-<rect x="273" y="60" width="43" height="6" fill="#7C49DC"/>
-
 <text x="70" y="122"
 font-family="monospace" font-size="66" font-weight="900"
 letter-spacing="1" fill="#6C43D5" stroke="#6C43D5"
@@ -91,7 +87,7 @@ stroke-width="5" paint-order="stroke">ACEZEEY</text>
 font-family="monospace" font-size="66" font-weight="900"
 letter-spacing="1" fill="url(#neon)">ACEZEEY</text>
 
-<path d="M73 134H285M316 134H438" stroke="#9365FF" stroke-width="3"/>
+<path d="M70 134H285M316 134H438" stroke="#9365FF" stroke-width="3"/>
 <path d="M295 132h8v-6h8v6h8v8h-8v7h-8v-7h-8z" fill="#FF9BCB"/>
 </g>
 
@@ -118,7 +114,7 @@ fill="#A9C8D8" text-anchor="middle">acezeey / current-confusion.txt</text>
 <text x="738" y="153" fill="#66D9CF">learning / building</text>
 
 <text x="704" y="184" fill="#648B9C">04</text>
-<text x="738" y="184" fill="#E2E9F5">> copy & paste_</text>
+<text x="738" y="184" fill="#E2E9F5">&gt; copy &amp; paste_</text>
 </g>
 </g>
 
